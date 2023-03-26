@@ -10,12 +10,14 @@ add_pepp_small = 2
 add_pepp_med_lg = 3
 add_extra_cheeese = 1
 
-if size = 
-if add_pepp_small
-if add_pepp_med_lg
-if add_extra_cheeese
+if size ==
+if add_pepp_small =
+if add_pepp_med_lg =
+if add_extra_cheeese =
 
 
+
+print(f"Your final bill is ${bill}")
 
 #Small Pizza: $15
 #Medium Pizza: $20
