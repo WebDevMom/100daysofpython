@@ -31,7 +31,7 @@ love_score += name2.count("e")
 
 final_love_score = int(str(true_score) + str(love_score))
 
-if final_love_score < 10 and final_love_score > 90:
+if final_love_score < 10 or final_love_score > 90:
     print(f"Your score is {final_love_score}, you go together like coke and mentos.")
 
 elif final_love_score >= 40 and final_love_score <= 50:
