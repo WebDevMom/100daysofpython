@@ -60,5 +60,5 @@ elif moon_land == "n":
     home = input("Do you stay on the star and make it your home? stay or go?\n")
     if home == "stay":
             print("You go native and live happily ever after with your alien bride.")
-    if home == "go":
+    elif home == "go":
             print("You leave the star and return to earth to a meagar existance.")
