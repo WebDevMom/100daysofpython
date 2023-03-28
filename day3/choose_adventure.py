@@ -41,21 +41,6 @@ elif moon_land == "n":
         print("Lets make contact! You decide to land on the planet. You have discovered a friendly alien race.")
     elif distant_star == "n":
         print("The civilization on the star takes your lack of communication as a threat and destroys your ship.Your dead! GAME OVER.")
-        print('''
-*******************************************************************************
-            .-""""-.        .-""""-.
-           /        \      /        \
-          /_        _\    /_        _\
-         // \      / \\  // \      / \\
-         |\__\    /__/|  |\__\    /__/|
-          \    ||    /    \    ||    /
-           \        /      \        /
-            \  ^^  /        \  __  /
-             '.__.'          '.__.'
-              |  |            |  |
-              |  |            |  |
-*****************************************************************************
-''')
     print("You meet a beatiful alien female on the star.")
     home = input("Do you stay on the star and make it your home? stay or go?\n")
     if home == "stay":
