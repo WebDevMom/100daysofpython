@@ -1,3 +1,6 @@
+import random
+select = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
+
 rock = '''
     _______
 ---'   ____)
@@ -24,3 +27,12 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+if select == "0":
+    print(rock)
+elif select == "1":
+    print(paper)
+else:
+     print(scissors)
+
+#no ideas
+computer_select = random.randint(0, 2)
