@@ -3,4 +3,11 @@ for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
 
  #create a for loop that adds up all the student heights 
- #create a variable that counts how many items/loops
+total = 0
+count = 0
+for height in student_heights:
+  total += height
+  count += 1
+average = round(total/count)
+  
+print(average)
