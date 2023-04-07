@@ -8,3 +8,6 @@
 
 #And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
 
+#Hint
+#Remember your answer should start from 1 and go up to and including 100.
+#2. Each number/text should be printed on a separate line.
