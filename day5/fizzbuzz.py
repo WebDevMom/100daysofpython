@@ -1,6 +1,6 @@
-#You are going to write a program that automatically prints the solution to the FizzBuzz game.
+#Write a program that automatically prints the solution to the FizzBuzz game.
 
-#Your program should print each number from 1 to 100 in turn.
+#Program should print each number from 1 to 100 in turn.
 
 #When the number is divisible by 3 then instead of printing the number it should print "Fizz".
 
@@ -11,4 +11,3 @@
 #Hint
 #Remember your answer should start from 1 and go up to and including 100.
 #2. Each number/text should be printed on a separate line.
-start
