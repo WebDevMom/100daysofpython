@@ -16,7 +16,7 @@
 #print(x + 1)
 
 word = "laampy"
-guess = input("Guess a letter! a")
+guess = input("Guess a letter! ")
 display = ["_", "_", "_", "_", "_"]
 word_length = len(word)
 for position in range(word_length):
